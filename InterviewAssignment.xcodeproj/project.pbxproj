@@ -22,6 +22,7 @@
 		92F8173B223E897800707F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F8172D223E897800707F01 /* LaunchScreen.storyboard */; };
 		92F8173C223E897800707F01 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F81730223E897800707F01 /* RootViewController.swift */; };
 		92F8173D223E897800707F01 /* listTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F81731223E897800707F01 /* listTableViewCell.swift */; };
+		92F81744223EB05500707F01 /* RootViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F81743223EB05500707F01 /* RootViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		92F8172E223E897800707F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92F81730223E897800707F01 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		92F81731223E897800707F01 /* listTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listTableViewCell.swift; sourceTree = "<group>"; };
+		92F81743223EB05500707F01 /* RootViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewControllerTests.swift; sourceTree = "<group>"; };
 		B72093F90DD55F8983D898CC /* Pods-InterviewAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewAssignment.debug.xcconfig"; path = "Target Support Files/Pods-InterviewAssignment/Pods-InterviewAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 		92F81701223E883C00707F01 /* InterviewAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				92F81743223EB05500707F01 /* RootViewControllerTests.swift */,
 				92F81702223E883C00707F01 /* InterviewAssignmentTests.swift */,
 				92F81704223E883C00707F01 /* Info.plist */,
 			);
@@ -239,7 +242,6 @@
 				B72093F90DD55F8983D898CC /* Pods-InterviewAssignment.debug.xcconfig */,
 				2375AEECC46AA53144B27B53 /* Pods-InterviewAssignment.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -443,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F81744223EB05500707F01 /* RootViewControllerTests.swift in Sources */,
 				92F81703223E883C00707F01 /* InterviewAssignmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
