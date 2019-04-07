@@ -31,6 +31,7 @@ class RootViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = .white
+        self.setupTableView()
         self.checkInternetConnection()
         rootViewModel.delegate = self
     }
@@ -103,7 +104,6 @@ class RootViewController: UIViewController {
         
         DispatchQueue.main.async {
             self.arrDataList.removeAll()
-            self.listTableview.reloadData()
             self.messageLabel.isHidden = false
         }
         self.isReachableConnection = false
@@ -177,7 +177,6 @@ extension RootViewController : RootViewModelDelegate {
             self.arrDataList = infoData
             if(self.arrDataList.count > 0){
                 DispatchQueue.main.async {
-                    self.setupTableView()
                     self.title = navigattionTitle
                     self.listTableview.reloadData()
                     self.hideHUD()

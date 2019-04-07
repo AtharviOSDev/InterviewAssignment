@@ -25,7 +25,7 @@ class ListTableViewCell: UITableViewCell {
         let marginGuide = contentView.layoutMarginsGuide
         
         contentView.addSubview(imgUser)
-        imgUser.contentMode = .scaleAspectFit
+        imgUser.contentMode = .scaleToFill
         imgUser.translatesAutoresizingMaskIntoConstraints = false
         imgUser.leadingAnchor.constraint(equalTo: marginGuide.leadingAnchor).isActive = true
         imgUser.topAnchor.constraint(equalTo: marginGuide.topAnchor).isActive = true
